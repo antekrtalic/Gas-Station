@@ -1,14 +1,16 @@
 package com.gastation.demo.gasstation.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
 @Table(name = "gas_station")
 public class GasStation {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "employees")
     private List<Employee> employees;
 }
