@@ -13,4 +13,10 @@ public class GasStation {
 
     @Column(name = "employees")
     private List<Employee> employees;
+
+    private String city;
+
+    private String address;
+
+    private String country;
 }
