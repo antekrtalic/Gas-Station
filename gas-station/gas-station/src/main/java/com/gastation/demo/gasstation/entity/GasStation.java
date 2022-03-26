@@ -24,5 +24,6 @@ public class GasStation {
 
     private String nintyEightBMB;
 
+    private String disel;
 
 }
