@@ -8,4 +8,6 @@ public class GasStation {
 
     private Long id;
     private List<Employee> employees;
+
+    private String city;
 }
