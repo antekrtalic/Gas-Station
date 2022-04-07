@@ -10,4 +10,6 @@ public class GasStation {
     private List<Employee> employees;
 
     private String city;
+
+    private String address;
 }
