@@ -12,4 +12,6 @@ public class GasStation {
     private String city;
 
     private String address;
+
+    private String country;
 }
