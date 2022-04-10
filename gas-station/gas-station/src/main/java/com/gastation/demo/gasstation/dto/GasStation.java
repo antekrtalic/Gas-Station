@@ -14,4 +14,6 @@ public class GasStation {
     private String address;
 
     private String country;
+
+    private String nintyFiveBMB;
 }
