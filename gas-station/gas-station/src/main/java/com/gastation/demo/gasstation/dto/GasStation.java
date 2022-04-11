@@ -16,4 +16,8 @@ public class GasStation {
     private String country;
 
     private String nintyFiveBMB;
+
+    private String nintyEightBMB;
+
+
 }
