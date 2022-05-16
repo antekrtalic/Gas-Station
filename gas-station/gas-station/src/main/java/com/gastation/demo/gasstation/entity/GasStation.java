@@ -14,17 +14,21 @@ public class GasStation {
     @Column(name = "employees")
     private List<Employee> employees;
 
+    @Column(name = "city")
     private String city;
 
+    @Column(name = "address")
     private String address;
 
+    @Column(name = "country")
     private String country;
 
-    private String nintyFiveBMB;
+    @Column(name = "ninety_five")
+    private String ninetyFiveBMB;
 
-    private String nintyEightBMB;
+    private String ninetyEightBMB;
 
-    private String disel;
+    private String diesel;
 
     public GasStation() {
     }
