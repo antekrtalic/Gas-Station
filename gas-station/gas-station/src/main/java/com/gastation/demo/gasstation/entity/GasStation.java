@@ -33,14 +33,14 @@ public class GasStation {
     public GasStation() {
     }
 
-    public GasStation(List<Employee> employees, String city, String address, String country, String nintyFiveBMB, String nintyEightBMB, String disel) {
+    public GasStation(List<Employee> employees, String city, String address, String country, String ninetyFiveBMB, String ninetyEightBMB, String diesel) {
         this.employees = employees;
         this.city = city;
         this.address = address;
         this.country = country;
-        this.nintyFiveBMB = nintyFiveBMB;
-        this.nintyEightBMB = nintyEightBMB;
-        this.disel = disel;
+        this.ninetyFiveBMB = ninetyFiveBMB;
+        this.ninetyEightBMB = ninetyEightBMB;
+        this.diesel = diesel;
     }
 
     public Long getId() {
@@ -83,27 +83,27 @@ public class GasStation {
         this.country = country;
     }
 
-    public String getNintyFiveBMB() {
-        return nintyFiveBMB;
+    public String getNinetyFiveBMB() {
+        return ninetyFiveBMB;
     }
 
-    public void setNintyFiveBMB(String nintyFiveBMB) {
-        this.nintyFiveBMB = nintyFiveBMB;
+    public void setNinetyFiveBMB(String ninetyFiveBMB) {
+        this.ninetyFiveBMB = ninetyFiveBMB;
     }
 
-    public String getNintyEightBMB() {
-        return nintyEightBMB;
+    public String getNinetyEightBMB() {
+        return ninetyEightBMB;
     }
 
-    public void setNintyEightBMB(String nintyEightBMB) {
-        this.nintyEightBMB = nintyEightBMB;
+    public void setNinetyEightBMB(String ninetyEightBMB) {
+        this.ninetyEightBMB = ninetyEightBMB;
     }
 
-    public String getDisel() {
-        return disel;
+    public String getDiesel() {
+        return diesel;
     }
 
-    public void setDisel(String disel) {
-        this.disel = disel;
+    public void setDiesel(String diesel) {
+        this.diesel = diesel;
     }
 }
