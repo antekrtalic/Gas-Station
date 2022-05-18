@@ -16,11 +16,16 @@ public class GasStation {
     @Setter
     private List<Employee> employees;
 
-
+    @Getter
+    @Setter
     private String city;
 
+    @Getter
+    @Setter
     private String address;
 
+    @Getter
+    @Setter
     private String country;
 
     private String nintyFiveBMB;
