@@ -28,8 +28,12 @@ public class GasStation {
     @Setter
     private String country;
 
+    @Getter
+    @Setter
     private String nintyFiveBMB;
 
+    @Getter
+    @Setter
     private String nintyEightBMB;
 
 
